@@ -43,3 +43,30 @@
 #content-pane #content p {
 	text-align: left;
 }
+
+a {
+	text-decoration: none;
+	color:inherit;
+}
+
+
+.table > span {
+	display: inline-block;
+	border: dashed;
+	height: auto;
+	text-align: top;
+}
+
+span img {
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	height: auto;
+	margin-top: 20px;
+}
+
+span p {
+	margin-left: 10%;
+	width: 80%;
+	border: dashed;
+}
