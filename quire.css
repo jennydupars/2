@@ -18,6 +18,7 @@
 
 *{
 	/*border: dashed;*/
+	font-family: 'Dosis', sans-serif;
 }
 
 #tagline{
@@ -26,4 +27,12 @@
 	width: 50%;
 	text-align: center;
 	margin-left: 25%;
+}
+
+#content > div {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	font-family: 'Dosis', sans-serif;
+	font-size: 25px;
 }

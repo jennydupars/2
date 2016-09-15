@@ -27,6 +27,8 @@
 	color: rgb(192,192,192);
 	display:table-cell;
 	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 20px;
 }
 
 #content-pane {
@@ -50,23 +52,36 @@ a {
 }
 
 
-.table > span {
-	display: inline-block;
-	border: dashed;
-	height: auto;
-	text-align: top;
+.projectitem {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+
 }
 
-span img {
+.projectitem img {
 	width: 80%;
+	height: 80%;
+	margin-left: 10%;
 	margin-right: 10%;
-	margin-left: 10%;
-	height: auto;
-	margin-top: 20px;
+	margin-bottom: 10%;
+	margin-top: 10%;
+	
 }
 
-span p {
-	margin-left: 10%;
-	width: 80%;
-	border: dashed;
+#quire_pic {
+	position:relative;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	z-index: 1;
+}
+
+#special {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
