@@ -3,6 +3,36 @@
 	<head>
 		<title>Jennifer Du</title>
 		<link rel="stylesheet" type="text/css" href="theme.css">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans|Work+Sans" rel="stylesheet">
+		<style type="text/css">
+			#tagline {
+				font-family: 'Work Sans', sans-serif;
+				font-size: x-large;
+				text-align: center;
+				color: rgb(130,130,130);
+			}
+
+			td  p{
+				margin-left:20px;	
+				font-family: 'Work Sans', sans-serif;
+			}
+
+			.list_button { 
+				width: 60px;
+				height: 60px;
+			}
+
+			.list_button  img {
+				width:100%;
+				height: auto;
+			}
+
+			#table_contact  tr{
+				height:90px;
+			}
+
+
+		</style>
 	</head>
 
 	<body>
@@ -26,14 +56,53 @@
 		</div>
 		
 		<div class="spacer"></div>
+		<div class="spacer"></div>
+		<div class="spacer"></div>
+		<div class="spacer"></div>
 			
 		<div id="content-pane">
+			<div id="tagline">
+				<p> "Call me, beep me, if you wanna reach me"</p>
+				<p> - Kim Possible</p>
+			</div>
+			
+			<div class="spacer"></div>
+			<div class="spacer"></div>
+
 			<div id="content">
-				<div> email</div>
-				<div>linked in</div>
-				<div>resume</div>
-				<div> facebook</div>
-				<div> instagram </div>
+				<table id="table_contact">
+					<tr>
+						<td class="list_button">
+							<a href="mailto:jsdu@caltech.edu">
+							<img src="pic/logos/logo_mail.png"></a>
+						</td>
+						
+						<td> <a href="mailto:jsdu@caltech.edu">
+							<p> EMAIL ME </p></a></td>
+					</tr>
+
+					<tr>
+						<td class="list_button">
+							<a href="https://www.linkedin.com/in/jennifer-du-12073097">
+							<img src="pic/logos/logo_linkedin.png"></a>
+						</td>
+						<td> <a href="https://www.linkedin.com/in/jennifer-du-12073097"><p>CHECK OUT MY LINKEDIN PROFILE </p> </a></td>
+					</tr>
+
+					<tr>
+						<td class="list_button">
+							<img src="pic/logos/logo_fb.png">
+						</td>
+						<td> <p>CONNECT WITH ME ON FACEBOOK</p></td>
+					</tr>
+
+					<tr>
+						<td class="list_button">
+							<img src="pic/logos/logo_ig.png">
+						</td>
+						<td> <p>LOOK AT MY INSTAGRAM POSTS </p></td>
+					</tr>				
+				</table>
 			</div>
 			
 		</div>
