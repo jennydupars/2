@@ -1,3 +1,3 @@
 function darken(x){
-    x.color = "yellow"
+    document.getElementbyId("navbar").style.color="blue";
 }
