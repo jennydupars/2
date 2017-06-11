@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("span").hover(function(){
+    $("p").hover(function(){
         $(this).css("background-color", "black");
         }, function(){
         $(this).css("background-color", "white");
