@@ -1,5 +1,7 @@
-$("span").hover(function(){
-    $(this).css("background-color", "pink");
-    }, function(){
-    $(this).css("background-color", "white");
+$(document).ready(function(){
+    $("span").hover(function(){
+        $(this).css("background-color", "black");
+        }, function(){
+        $(this).css("background-color", "white");
+    });
 });
